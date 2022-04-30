@@ -1,0 +1,333 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chai Sutta Bar Menu</title>
+	<link rel="stylesheet" href="chai.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	   <!-- Slideshow container -->
+	   <div class="header">
+		<div class="container">
+		  <div class="navbar">
+			<div class="logo">
+			  <img src="img/naruto-logo-1.png" width="80px" />
+			</div>
+			<nav>
+			  <ul id="MenuItems">
+				<li><a href="">Home</a></li>
+				<li><a href="">Produts</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="">Account</a></li>
+			  </ul>
+			</nav>
+			<a href=""><img src="img/cart.png" width="30px" height="30px" /></a>
+			<img
+			  src="img/menu.png"
+			  alt="cart"
+			  class="menu-icon"
+			  onclick="menutoggle()"
+			/>
+		  </div>
+		</div>
+  
+		<div class="slideshow-container">
+		  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides">
+			<div class="row">
+			  <div class="col-2">
+				<h1>Thinking About Food <br />Think Kakashi</h1>
+				<p>
+				  Explore the wide variety of Ramen<br />
+				  at Kakashi Restaurant
+				</p>
+				<a href="#" class="btn">Explore Now &#8594;</a>
+			  </div>
+  
+			  <div class="col-2">
+				<img src="img/image-2.png" />
+			  </div>
+			</div>
+		  </div>
+		  <div class="mySlides">
+			<div class="row">
+			  <div class="col-2">
+				<h1>Have a Break <br />Have a Tea</h1>
+				<p>
+				  Explore the wide variety of Ramen<br />
+				  at Kakashi Restaurant
+				</p>
+				<a href="#" class="btn">Explore Now &#8594;</a>
+			  </div>
+  
+			  <div class="col-2">
+				<img src="img/combo2.png" />
+			  </div>
+			</div>
+		  </div>
+		  <div class="mySlides">
+			<div class="row">
+			  <div class="col-2">
+				<h1>Thinking About Food <br />Think Kakashi</h1>
+				<p>
+				  Explore the wide variety of Ramen<br />
+				  at Kakashi Restaurant
+				</p>
+				<a href="#" class="btn">Explore Now &#8594;</a>
+			  </div>
+  
+			  <div class="col-2">
+				<img src="img/image-2.png" />
+			  </div>
+			</div>
+		  </div>
+  
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<!-- The dots/circles -->
+		<div style="text-align: center">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+	  </div>
+
+	<!-----------Featured Categories------------>
+		<div class="small-container">
+			<h2 class="title">Kakashi's Menu</h2>
+			<div class="row">
+			  	<div class="column">
+					<a href="chai-menu.html"><img src="img/ramen-logo.png" width="100%"></a>
+					<h4 align="center">Ichiraku Ramen</h4>	
+			  	</div>
+			 	<div class="column">
+					<a href="Burger.html"><img src="img/chinese-1.png" width="100%"></a>
+					<h4 align="center">Indo-Chinese(Desi Chinese)</h4>
+			 	</div> 
+				 <div class="column">
+					<a href="sandwich.html"><img src="img/burger&sandwich.png" width="100%"></a>
+					<h4 align="center">Burger & Sandwiches</h4>
+				 </div>
+				 <div class="column">
+					<a href="Pizza.html"><img src="img/pasta-1.png" width="100%"></a>
+					<h4 align="center">Pasta</h4>
+				 </div>
+				 <div class="column">
+					<a href="fried.html"><img src="img/fries-1.png" width="100%">
+					<h4 align="center">Fried Delicacies</h4></a>				
+				 </div>
+				 <div class="column">
+					 <img src="img/bhature-1.png" width="100%">
+					 <h4 align="center">Indian Snacks</h4>			
+				 </div>
+				 <div class="column">
+					 <img src="img/south.png" width="100%">
+					 <h4 align="center">South Indian</h4> 
+				 </div>
+				 <div class="column">
+					 <img src="img/drinks.png" width="100%">
+					 <h4 align="center">Assorted Drinks</h4>
+				 </div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-----------Featured Products------------>
+	
+	<div class="small-container">
+		<h2 class="title">Delicious Choice</h2>
+		    <div class="row">
+			<div class="column" align="center">
+			      <a href=""><img src="img/pizza-1.png"width="100%"></a>
+			      <h4>Pizza</h4>
+			      <div class="rating">
+			      	 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star-half-o"></i>
+			      </div>
+			      <p>$53.00</p>	
+			</div>
+			<div class="column" align="center">
+				    <a href=""><img src="img/burger-1.png"width="100%"></a>
+			      <h4>Burger</h4>
+			      <div class="rating">
+			      	 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+			      </div>
+			      <p>$65.00</p>	
+			</div>
+			<div class="column" align="center">
+			      <a href=""><img src="img/french-fries.png"width="100%"></a>
+			      <h4>french-fries</h4>
+			      <div class="rating" >
+			      	 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star-half-o"></i>
+			      </div>
+			      <p>$34.00</p>	
+			</div>
+			<div class="column" align="center">
+			      <a href=""><img src="img/sandwich-1.png"width="100%"></a>
+			      <h4>Sandwich</h4>
+			      <div class="rating">
+			      	 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+			      </div>
+			      <p>$79.00</p>	
+			</div>
+		   </div>
+	</div>
+	<div class="small-container">
+		<h2 class="title">Delicious Choice</h2>
+		    <div class="row">
+			<div class="column" align="center">
+			      <a href=""><img src="img/masala-chai.png"width="50%"></a>
+			      <h4>Pizza</h4>
+			      <div class="rating">
+			      	 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star-half-o"></i>
+			      </div>
+			      <p>$53.00</p>	
+			</div>
+			<div class="column" align="center">
+				    <a href=""><img src="img/csb-burger.png"width="50%"></a>
+			      <h4>Burger</h4>
+			      <div class="rating">
+			      	 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+			      </div>
+			      <p>$65.00</p>	
+			</div>
+			<div class="column" align="center">
+			      <a href=""><img src="img/pizza-paneer.png"width="40%"></a>
+			      <h4>french-fries</h4>
+			      <div class="rating" >
+			      	 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star-half-o"></i>
+			      </div>
+			      <p>$34.00</p>	
+			</div>
+			<div class="column" align="center">
+			      <a href=""><img src="img/cold-drinks.png"width="100%"></a>
+			      <h4>Sandwich</h4>
+			      <div class="rating">
+			      	 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+				 <i class="fa fa-star"></i>
+			      </div>
+			      <p>$79.00</p>	
+			</div>
+		   </div>
+	</div>
+
+<!-------------Footer-------------->
+<div class="footer">
+	<div class="container">
+	<div class="row">
+		<div class="footer-col-1">
+		<h3>Download Our App</h3>
+		<p>Download Our App for Android and ios Mobile Phones.</p>
+		<div class="app-logo">
+			<img src="img/play-store.png">
+			<img src="img/app-store.png">
+		</div>	
+		</div>
+		<div class="footer-col-2">
+		<img style="width: 25%;" src="img/naruto-logo-1.png">
+		<p>Our Purpose Is To Serve You The Best CHAI SNACKS & AMBIENCE. </p>	
+		</div>
+		<div class="footer-col-3">
+		<h3>Useful Links</h3>
+		<ul>
+			<li>Coupons</li>	
+			<li>Blog Post</li>
+			<li>Return Policy</li>
+			<li>Join Affiliate</li>
+		</ul>
+		</div>
+		<div class="footer-col-4">
+		<h3>Follow US</h3>
+		<ul>
+			<li>Facebook</li>	
+			<li>Instagram</li>
+			<li>YouTube</li>
+			<li>Twitter</li>
+		</ul>
+		</div>
+	</div>
+	<hr>
+	<p class="copyright"> Copyright 2022 Kakashi Restaurant Cafe</p>
+	</div>
+</div>
+
+<!------------JS for Toggle Menu--------------->
+
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+	
+	MenuItems.style.maxHeight = "0px";
+	
+	function menutoggle(){
+		if(MenuItems.style.maxHeight =="0px")
+			{
+				MenuItems.style.maxHeight ="200px";
+			}
+		else		
+			{
+				MenuItems.style.maxHeight ="0px";
+			}
+		}
+
+		let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
